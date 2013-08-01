@@ -109,7 +109,7 @@ var chatOptions = {
 			load: function () {
 				if ($("#pingspan").length > 0 || this.loaded)
 					return;
-				importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-ChatHacks');
+				importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/ChatHacks.js');
 				this.loaded = true;
 			}
 		},
@@ -118,7 +118,7 @@ var chatOptions = {
 			enabled: isEnabled("tabComplete"),
 			loaded: false,
 			load: function () {
-				importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-TabComplete');
+				importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/Tab-Complete.js');
 				this.loaded = true;
 			}
 		},
@@ -127,7 +127,7 @@ var chatOptions = {
 			enabled: isEnabled("multiKick"),
 			loaded: false,
 			load: function () {
-				importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-MultiKick');
+				importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/Multi-Kick.js');
 				$('<a id="multiKickerButton" class="wikia-button" href="javascript:showPopup()" style="position:absolute; right:55px; top:22px;">Multikick</a>').appendTo('.Write');
 				this.loaded = true;
 			}
@@ -137,7 +137,7 @@ var chatOptions = {
 			enabled: isEnabled("multiPM"),
 			loaded: false,
 			load: function () {
-				importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-MultiPm');
+				importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/Multi-PM.js');
 				this.loaded = true;
 			}
 		},
@@ -146,7 +146,7 @@ var chatOptions = {
 			enabled: isEnabled("searchBar"),
 			loaded: false,
 			load: function () {
-				importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-SearchBar');
+				importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/Search-Bar.js');
 				this.loaded = true;
 			}
 		},
