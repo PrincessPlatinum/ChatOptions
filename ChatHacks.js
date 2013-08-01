@@ -603,8 +603,8 @@ if(wgCanonicalSpecialPageName == 'Chat') {
  
 	$(function () {
 		if(!importScriptURI) {function importScriptURI(a){var b=document.createElement("script");b.setAttribute("src",a);b.setAttribute("type","text/javascript");document.getElementsByTagName("head")[0].appendChild(b);return b}}
-		importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-Chati18n');
-		importScriptURI('https://raw.github.com/PrincessPlatinum/Wikia-User-Scripts/master/CPW-Backup-APIQuery'); //APIQuery for /unban
+		importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/ChatHacks-i18n.js');
+		importScriptURI('https://raw.github.com/PrincessPlatinum/ChatOptions/master/APIQuery.js'); //APIQuery for /unban
  
 		$('head').append('<style type="text/css">\n.stafficon {\n\tmargin-bottom:-4px;\n\twidth:14px;\n\theight:14px;\n}\n.modicon {\n\tmargin-bottom:-3px;\n\twidth:14px;\n\theight:14px;\n}\n.UserStatsMenu {\n\tcolor:#000;\n}\n.Write [name="message"] {\n\twidth:93%;\n}\n.inline-alert span {\n\tcolor:#006CB0;\n\tcursor:pointer;\n}\n.inline-alert span:hover {\n\ttext-decoration:underline;\n}\n#pingspan {\n\tposition:absolute;\n\tz-index:5;\n\ttop:23px;\n\tmargin-left:15px;\n\tfont-size:15px;\n\tfont-weight:normal;\n\tline-height:15px;\n}\n#pings {\n\tresize:none;\n\tmargin-left:0;\n\tfont-size:12px;\n\theight:100px;\n\tdisplay:block;\n}\n#pingspan div span {\n\tfont-size:55%;\n}\n#ChatHeader {\n\tz-index:9999;\n}\n#ChatHeader {\n\tz-index:9999;\n}\n.message.ping {\n\tcolor:red;\n}\n</style>');
  
