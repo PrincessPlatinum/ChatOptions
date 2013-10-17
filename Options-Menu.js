@@ -40,7 +40,7 @@ function setCookie( cookie_name, data ) {
  * @param cookie_name A string representing the cookie's name
  * @param pos The index of the value to get from the cookie
  * @return The string value of the cookie
- */
+ 
 function getCookie( cookie_name, pos ) {
 	var x, y, cookie_array = document.cookie.split(";");
 	for (var i=0; i < cookie_array.length; i++) {
