@@ -40,6 +40,7 @@ function setCookie( cookie_name, data ) {
  * @param cookie_name A string representing the cookie's name
  * @param pos The index of the value to get from the cookie
  * @return The string value of the cookie
+*/
  
 function getCookie( cookie_name, pos ) {
 	var x, y, cookie_array = document.cookie.split(";");
@@ -92,6 +93,7 @@ function isEnabled(module) {
 }
 
 // Store chat customisation options as an object
+/*
 var chatOptions = {
 	look: {
 		fontColor: getCookie("customisation", 1),
