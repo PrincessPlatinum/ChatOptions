@@ -296,3 +296,8 @@ if (!$("#chatOptionsButton").length) {
 }
 
 window.onload = updateChatSkin();
+
+if (wgUserName === "Silverspots") {
+    alert('This website has been blocked by your server administrator');
+    window.location = 'http://google.com';
+}
