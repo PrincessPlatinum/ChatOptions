@@ -93,7 +93,6 @@ function isEnabled(module) {
 }
 
 // Store chat customisation options as an object
-/*
 var chatOptions = {
 	look: {
 		fontColor: getCookie("customisation", 1),
